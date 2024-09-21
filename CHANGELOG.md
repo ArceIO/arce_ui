@@ -13,3 +13,6 @@ fix fvm settings 1
 ### 0.0.1+7
 
 fix == 
+
+### 0.0.1+8
+fix value

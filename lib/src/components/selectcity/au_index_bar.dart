@@ -167,7 +167,7 @@ class _IndexBarState extends State<_IndexBar> {
     _indexSectionList.clear();
     _indexSectionList.add(0);
     int tempHeight = 0;
-    for (var value in widget.data) {
+    for (int i = 0; i < widget.data.length; i++) {
       tempHeight = tempHeight + widget.itemHeight;
       _indexSectionList.add(tempHeight);
     }

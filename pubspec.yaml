@@ -1,12 +1,12 @@
 name: arce_ui
 description: "a ui template"
-version: 0.0.1+4
+version: 0.0.1+5
 repository: https://github.com/arceio/arce_ui.git
 
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
-  flutter: ">=3.19.6"
+  flutter: ">=3.22.3"
 
 dependencies:
   flutter:

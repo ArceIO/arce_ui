@@ -5,3 +5,7 @@
 ### 0.0.1+5
 
 fix fvm settings
+
+### 0.0.1+6
+
+fix fvm settings 1

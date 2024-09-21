@@ -108,10 +108,10 @@ class AuTriangleIndicator extends Decoration {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     if (identical(this, other)) return true;
     if (runtimeType != other.runtimeType) return false;
-    final AuTriangleIndicator typedOther = other;
+    final AuTriangleIndicator typedOther = other as AuTriangleIndicator;
     return color == typedOther.color &&
         lineWidth == typedOther.lineWidth &&
         triWidth == typedOther.triWidth &&

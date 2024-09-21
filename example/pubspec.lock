@@ -7,7 +7,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.0.1"
+    version: "0.0.1+4"
   async:
     dependency: transitive
     description:
@@ -16,14 +16,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.11.0"
-  badges:
-    dependency: "direct main"
-    description:
-      name: badges
-      sha256: "727580d938b7a1ff47ea42df730d581415606b4224cfa708671c10287f8d3fe6"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "2.0.3"
   bindings_compatible:
     dependency: transitive
     description:
@@ -78,7 +70,7 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_easyrefresh:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_easyrefresh
       sha256: "5d161ee5dcac34da9065116568147d742dd25fb9bff3b10024d9054b195087ad"
@@ -96,7 +88,7 @@ packages:
     source: sdk
     version: "0.0.0"
   intl:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: intl
       sha256: d6f56758b7d3014a48af9701c085700aac781a92a87a62b1333b46d8879661cf
@@ -128,7 +120,7 @@ packages:
     source: hosted
     version: "3.0.1"
   lpinyin:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: lpinyin
       sha256: "0bb843363f1f65170efd09fbdfc760c7ec34fc6354f9fcb2f89e74866a0d814a"
